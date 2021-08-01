@@ -26,7 +26,11 @@ const routes = [
     path:"/Cart",
     name: "Cart",
     component: () =>import('@/components/Cart.vue')
-
+  },
+  {
+    path:"/VistaLetra",
+    name: "VistaLetra",
+    component: () =>import('@/components/VistaLetra.vue')
   }
  
 ]

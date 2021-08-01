@@ -11,6 +11,9 @@
        <b-button  block  
                   variant="light"
                   @click="$emit('addToMiLista',cancion)" >añadir a lista</b-button>
+      <b-button  block  
+                  variant="dark"
+                   router-link to="/VistaLetra" >Ver letra</b-button>
  </b-card>
 </div>
 </template>
