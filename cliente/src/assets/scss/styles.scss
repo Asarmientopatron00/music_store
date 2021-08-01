@@ -1,11 +1,35 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body{
+    height: 100%;
+    background-color: black;
+    align-content: center !important;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+
+
 #app{
 
     background: linear-gradient(180deg, rgba(12, 11, 11, 0) 0.52%, #0C0B0B 26.04%); 
     box-shadow: 0px 4px 4px rgba(236, 234, 234, 0.25);
     color: white;
+    min-width: 100%;
+    min-height: 100%;
+
+    ul{
+        margin-top: 1rem;
+    }
+
     
     .navbar {
         background-color: #0C0B0B;
+        min-width: 100%;
+      
 
         img.rounded-circle{
             border-color: #c2bbbb;
@@ -77,8 +101,6 @@
         align-content: center;
     }
 
-
-
 }
 
 #login{
@@ -87,10 +109,10 @@
     background-color:black;
     
 
-    container-fluid{
-        max-width: 50%;
+    .container-fluid{
         border-radius:2px;
         border-color: #c2bbbb;
+        max-width:50%;
         
     }
 }

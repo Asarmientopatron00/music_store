@@ -1,71 +1,36 @@
 [{
-  "id": 1,
-  "name": "Evergreen",
-  "urlPista": "Allom",
-  "urlImagen": "http://dummyimage.com/238x100.png/ff4444/ffffff",
-  "calificacion": 1,
-  "autor": "Robbie Allom"
-}, {
-  "id": 2,
-  "name": "Cobra",
-  "urlPista": "Eaglestone",
-  "urlImagen": "http://dummyimage.com/155x100.png/ff4444/ffffff",
+  "name": "Menard Whithorn",
+  "urlPista": "https://apache.org/nulla/dapibus/dolor.xml?nulla=vulputate&dapibus=ut&dolor=ultrices&vel=vel&est=augue&donec=vestibulum&odio=ante&justo=ipsum&sollicitudin=primis&ut=in&suscipit=faucibus&a=orci&feugiat=luctus&et=et&eros=ultrices&vestibulum=posuere&ac=cubilia&est=curae&lacinia=donec&nisi=pharetra&venenatis=magna&tristique=vestibulum&fusce=aliquet&congue=ultrices&diam=erat&id=tortor&ornare=sollicitudin&imperdiet=mi&sapien=sit&urna=amet&pretium=lobortis&nisl=sapien&ut=sapien&volutpat=non&sapien=mi&arcu=integer&sed=ac&augue=neque&aliquam=duis&erat=bibendum&volutpat=morbi&in=non&congue=quam&etiam=nec&justo=dui&etiam=luctus&pretium=rutrum&iaculis=nulla&justo=tellus&in=in&hac=sagittis&habitasse=dui&platea=vel&dictumst=nisl&etiam=duis&faucibus=ac",
+  "urlImagen": "http://dummyimage.com/150x100.png/dddddd/000000",
   "calificacion": 4,
-  "autor": "Yoko Eaglestone"
+  "autor": "Eliza Cracker",
+  "letra": "lorem ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non"
 }, {
-  "id": 3,
-  "name": "Temptation of a Monk (You Seng)",
-  "urlPista": "Adamsson",
-  "urlImagen": "http://dummyimage.com/188x100.png/dddddd/000000",
-  "calificacion": 5,
-  "autor": "Jami Adamsson"
-}, {
-  "id": 4,
-  "name": "Danger! 50,000 Zombies",
-  "urlPista": "Bubeer",
-  "urlImagen": "http://dummyimage.com/110x100.png/cc0000/ffffff",
+  "name": "Aland Gormally",
+  "urlPista": "http://seesaa.net/justo/morbi/ut.jpg?lectus=convallis&in=duis&quam=consequat&fringilla=dui&rhoncus=nec&mauris=nisi&enim=volutpat&leo=eleifend&rhoncus=donec&sed=ut&vestibulum=dolor&sit=morbi&amet=vel&cursus=lectus&id=in&turpis=quam&integer=fringilla&aliquet=rhoncus&massa=mauris&id=enim&lobortis=leo&convallis=rhoncus&tortor=sed&risus=vestibulum&dapibus=sit&augue=amet&vel=cursus&accumsan=id&tellus=turpis&nisi=integer&eu=aliquet&orci=massa&mauris=id&lacinia=lobortis&sapien=convallis&quis=tortor&libero=risus&nullam=dapibus&sit=augue&amet=vel&turpis=accumsan&elementum=tellus&ligula=nisi&vehicula=eu&consequat=orci&morbi=mauris&a=lacinia&ipsum=sapien&integer=quis&a=libero&nibh=nullam&in=sit&quis=amet&justo=turpis&maecenas=elementum&rhoncus=ligula&aliquam=vehicula&lacus=consequat&morbi=morbi&quis=a&tortor=ipsum&id=integer&nulla=a&ultrices=nibh&aliquet=in&maecenas=quis&leo=justo&odio=maecenas&condimentum=rhoncus&id=aliquam&luctus=lacus&nec=morbi&molestie=quis&sed=tortor&justo=id&pellentesque=nulla&viverra=ultrices&pede=aliquet&ac=maecenas&diam=leo&cras=odio&pellentesque=condimentum&volutpat=id&dui=luctus&maecenas=nec&tristique=molestie",
+  "urlImagen": "http://dummyimage.com/185x100.png/ff4444/ffffff",
   "calificacion": 3,
-  "autor": "Elissa Bubeer"
+  "autor": "Iseabal Cushelly",
+  "letra": "orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec"
 }, {
-  "id": 5,
-  "name": "September Issue, The",
-  "urlPista": "McGuire",
-  "urlImagen": "http://dummyimage.com/214x100.png/5fa2dd/ffffff",
+  "name": "Gregoor Doogue",
+  "urlPista": "http://addtoany.com/metus/vitae.aspx?sit=pede&amet=posuere&consectetuer=nonummy&adipiscing=integer&elit=non&proin=velit&risus=donec&praesent=diam&lectus=neque&vestibulum=vestibulum&quam=eget&sapien=vulputate&varius=ut&ut=ultrices&blandit=vel&non=augue&interdum=vestibulum&in=ante&ante=ipsum&vestibulum=primis&ante=in&ipsum=faucibus&primis=orci&in=luctus&faucibus=et&orci=ultrices&luctus=posuere&et=cubilia&ultrices=curae",
+  "urlImagen": "http://dummyimage.com/212x100.png/dddddd/000000",
   "calificacion": 4,
-  "autor": "Vyky McGuire"
+  "autor": "Andromache Newlyn",
+  "letra": "non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet"
 }, {
-  "id": 6,
-  "name": "Counsellor at Law",
-  "urlPista": "Benech",
-  "urlImagen": "http://dummyimage.com/139x100.png/5fa2dd/ffffff",
-  "calificacion": 4,
-  "autor": "Tatiania Benech"
-}, {
-  "id": 7,
-  "name": "Tribute to a Bad Man",
-  "urlPista": "Lacrouts",
-  "urlImagen": "http://dummyimage.com/105x100.png/5fa2dd/ffffff",
-  "calificacion": 2,
-  "autor": "Deeann Lacrouts"
-}, {
-  "id": 8,
-  "name": "Our Song",
-  "urlPista": "Necolds",
-  "urlImagen": "http://dummyimage.com/143x100.png/dddddd/000000",
+  "name": "Anastasia Fosdyke",
+  "urlPista": "http://independent.co.uk/non/mattis/pulvinar.jsp?nec=ullamcorper&euismod=augue&scelerisque=a&quam=suscipit&turpis=nulla&adipiscing=elit&lorem=ac&vitae=nulla",
+  "urlImagen": "http://dummyimage.com/237x100.png/ff4444/ffffff",
   "calificacion": 1,
-  "autor": "Leslie Necolds"
+  "autor": "Alana Hardington",
+  "letra": "vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus"
 }, {
-  "id": 9,
-  "name": "Eddie Murphy Raw",
-  "urlPista": "Dewhirst",
-  "urlImagen": "http://dummyimage.com/246x100.png/dddddd/000000",
+  "name": "Marjorie Ferryn",
+  "urlPista": "http://vistaprint.com/odio/justo/sollicitudin/ut/suscipit/a/feugiat.json?orci=sagittis&luctus=dui&et=vel&ultrices=nisl&posuere=duis&cubilia=ac&curae=nibh&donec=fusce&pharetra=lacus&magna=purus&vestibulum=aliquet&aliquet=at&ultrices=feugiat&erat=non&tortor=pretium&sollicitudin=quis&mi=lectus&sit=suspendisse&amet=potenti&lobortis=in&sapien=eleifend&sapien=quam&non=a&mi=odio&integer=in&ac=hac&neque=habitasse&duis=platea&bibendum=dictumst&morbi=maecenas&non=ut&quam=massa&nec=quis&dui=augue&luctus=luctus&rutrum=tincidunt&nulla=nulla&tellus=mollis&in=molestie&sagittis=lorem&dui=quisque&vel=ut&nisl=erat&duis=curabitur&ac=gravida&nibh=nisi&fusce=at&lacus=nibh&purus=in&aliquet=hac&at=habitasse&feugiat=platea&non=dictumst&pretium=aliquam&quis=augue&lectus=quam&suspendisse=sollicitudin&potenti=vitae&in=consectetuer&eleifend=eget&quam=rutrum&a=at&odio=lorem&in=integer&hac=tincidunt&habitasse=ante&platea=vel&dictumst=ipsum&maecenas=praesent&ut=blandit&massa=lacinia&quis=erat&augue=vestibulum&luctus=sed&tincidunt=magna&nulla=at&mollis=nunc&molestie=commodo&lorem=placerat&quisque=praesent&ut=blandit&erat=nam&curabitur=nulla&gravida=integer&nisi=pede&at=justo&nibh=lacinia&in=eget&hac=tincidunt&habitasse=eget&platea=tempus&dictumst=vel",
+  "urlImagen": "http://dummyimage.com/175x100.png/cc0000/ffffff",
   "calificacion": 4,
-  "autor": "Taffy Dewhirst"
-}, {
-  "id": 10,
-  "name": "The Land",
-  "urlPista": "Dugmore",
-  "urlImagen": "http://dummyimage.com/216x100.png/ff4444/ffffff",
-  "calificacion": 4,
-  "autor": "Helge Dugmore"
+  "autor": "Jacinthe Blune",
+  "letra": "montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent"
 }]

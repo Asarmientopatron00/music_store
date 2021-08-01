@@ -1,7 +1,7 @@
 <template>
-
+<div class="container-fluid">
  <b-card bg-variant="dark" text-variant="white" 
-    :title ="`Titulo: ${cancion.name.slice(0,10)}`"
+    :title ="`Titulo: ${cancion.name.slice(0,20)}`"
     :img-src="cancion.urlImagen"
     :img-alt="cancion.name"
     img-top
@@ -10,9 +10,9 @@
        <p class="muted"> Autor: {{cancion.autor.slice(0,10)}} </p>
        <b-button  block  
                   variant="light"
-                  @click="$emit('addToCart',cancion)" >Buy song</b-button>
+                  @click="$emit('addToMiLista',cancion)" >añadir a lista</b-button>
  </b-card>
-  
+</div>
 </template>
 
 <script>

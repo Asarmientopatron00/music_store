@@ -1,6 +1,5 @@
 <template>
-<div class="container justify-content-center border">
-  <form>
+  <form class="container justify-content-center border">
     <div class="form-group">
       <label for="exampleInputEmail1">Email address</label>
       <input
@@ -29,7 +28,6 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
-</div>
 </template>
 
 <script>

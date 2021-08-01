@@ -1,12 +1,13 @@
 <template>
+<b-container class="xl">
   <div v-if="canciones.length">
     <paginate name="canciones" :list="canciones" :per="perPage">
       <b-card-group columns> 
         <cancion-item 
-          v-for="item in paginated('canciones')" 
-          :key="item.id" 
-          :cancion="item"
-          @addToCart="addCancionToCart"
+          v-for="cancion in paginated('canciones')" 
+          :key="cancion.id" 
+          :cancion="cancion"
+          @addToMiLista="addCancionToMiLista"
 
       ></cancion-item></b-card-group>
  
@@ -21,6 +22,7 @@
     ></paginate-links>
   </div>
   <b-alert v-else variant="info" show> No hay canciones disponibles </b-alert>
+  </b-container>
 </template>
 
 <script>
@@ -44,18 +46,16 @@ export default {
   },
   computed: {
     ...mapState("canciones", ["canciones"]),
-    ...mapState("cart",["cart"])
+    ...mapState("milista",["milista"])
   },
   methods: {
-    ...mapActions("canciones", ["fetchCanciones", "getCanciones"]),
-    ...mapMutations('cart',['addCancion']),
+    ...mapActions("canciones", ["fetchCanciones", "fetchCancionesData"]),
+    ...mapMutations('milista',['addCancion']),
 
-      addCancionToCart(cancion){
-        console.log(cancion);
+      addCancionToMiLista(cancion){
         this.addCancion(cancion);
       }
   },
 };
 </script>
 
-  

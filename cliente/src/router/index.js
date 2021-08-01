@@ -1,35 +1,32 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import AdvancedSearch from "../views/AdvancedSearch.vue";
-import Home from "../views/Home.vue";
-import Login from "../views/Login.vue";
-import VistaCart from "../views/VistaCart.vue";
-
-
 
 
 Vue.use(VueRouter)
 
 const routes = [
+
   {
-    path: "/",
+    path:"/",
     name: "Home",
-    component: Home
+    component: () => import('@/layouts/Home.vue')
+
   },
   {
     path: "/AdvancedSearch",
     name: "AdvancedSearch",
-    component: AdvancedSearch
+    component: () => import('@/views/AdvancedSearch.vue')
   },
   {
     path:"/Login",
     name: "Login",
-    component: Login
+    component: () => import('@/views/Login.vue')
   },
   {
-    path:"/VistaCart",
-    name: "VistaCart",
-    component: VistaCart
+    path:"/Cart",
+    name: "Cart",
+    component: () =>import('@/components/Cart.vue')
+
   }
  
 ]

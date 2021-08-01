@@ -31,8 +31,6 @@
 <script>
 import CancionList from "@/components/CancionList.vue";
 import { mapState, mapActions} from 'vuex';
-
-
 export default {
   name: "Carousel",
   data() {
@@ -62,17 +60,3 @@ export default {
 };
 </script>
 
-<style scoped>
-#carousel {
-    max-width:  664px;
-    max-height: 557px;
-    align-self: center;
-
-  }
-   .container-fluid{
-    align-items: center;
-    
-  }
-
-
-</style>

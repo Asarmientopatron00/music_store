@@ -1,19 +1,20 @@
 <template>
-  <div id="app">
-    <Navbar />
+ <div id="app">
+  <navbar></navbar>
+  <router-view></router-view>
   </div>
-
 </template>
+
 
 <script>
 
-import Navbar from "@/components/Navbar.vue";
 
+import Navbar from './components/Navbar.vue'
 
 
 export default {
   name:'App',
-  components: {Navbar}
+  components:{ Navbar} 
 }
 
 </script>
@@ -27,9 +28,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #dfe3e7;
 }
 
+  .container-fluid {
+        min-height: 100%;
+      }
 
 
 </style>

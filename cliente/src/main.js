@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+require('@/plugins'); // Anadido recientemente
+
 Vue.config.productionTip = false
 
 require('./plugins')

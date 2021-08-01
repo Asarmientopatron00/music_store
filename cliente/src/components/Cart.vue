@@ -1,36 +1,32 @@
 <template>
-  <div v-if="cart.length">
-    <b-table striped hover :items="cart" :fields="fields">
+  <div v-if="milista.length">
+    <b-table striped hover :items="milista" :fields="fields">
       <template #cell(actions)="row">
         <b-button variant="danger" @click="removeItem(row)">
           Eliminar
         </b-button>
       </template>
     </b-table>
-    <b-alert variant="success" show
-      >Costo total: Cop. $ {{ totalCost }}</b-alert
-    >
   </div>
-  <b-alert v-else variant="info" show>No hay canciones en tu carrito</b-alert>
+  <b-alert v-else variant="info" show>No hay canciones en tu lista</b-alert>
 </template>
 <script>
 import { mapState, mapMutations, mapGetters } from "vuex";
 export default {
-  name: "Cart",
+  name: "MiLista",
   data() {
     return {
-      fields: ["name", "qty", "price", "actions"],
+      fields: ["name"],
     };
   },
   computed: {
-    ...mapState("cart", ["cart"]),
-    ...mapGetters("cart", ["totalCost"]),
+    ...mapState("milista", ["milista"]),
   },
   methods: {
-    ...mapMutations("cart", ["removeCancionFromCart"]),
+    ...mapMutations("milista", ["removeCancionFromMiLista"]),
     removeItem(row) {
       console.log(row);
-      this.removeCancionFromCart(row.item);
+      this.removeCancionFromMiLista(row.item);
     },
   },
 };
