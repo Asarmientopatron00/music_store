@@ -31,6 +31,7 @@
 <script>
 import CancionList from "@/components/CancionList.vue";
 import { mapState, mapActions} from 'vuex';
+
 export default {
   name: "Carousel",
   data() {

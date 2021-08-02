@@ -6,7 +6,7 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
 
-      <b-nav-form  @submit.prevent="showCancion">
+      <b-nav-form  @submit.prevent="searchSong">
           <b-form-input size="sm" class="mr-sm-2" v-model="busqueda.parametro" placeholder="Search" ></b-form-input>
           <b-button size="sm" class="my-2 my-sm-0 mybutton" type="submit" >
              <img src="../assets/images/search.png" class="img-fluid" alt="Search button" > 
@@ -48,9 +48,11 @@ export default{
     },
     methods: {
       ...mapActions("canciones", ["fetchCanciones"]),
-      showCancion(){
+      searchSong(){
         const cancion=this.canciones.find( cancion => cancion.name ==this.busqueda.parametro );
-        console.log(cancion);
+
+        // objs.sort((a,b) => (a.last_nom > b.last_nom) ? 1 : ((b.last_nom > a.last_nom) ? -1 : 0))
+        
         
       }
     }

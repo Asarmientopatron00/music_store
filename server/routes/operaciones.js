@@ -32,7 +32,7 @@ router.get('/listas', async (req, res) => {          //Obtiene todas las cancion
 
 
 router.get('/canciones', async (req, res) => {          //Obtiene todas las canciones
-        let canciones = await cancion.find({})   //El await evita que se trabaje con callbacks o promesas. 
+        let canciones = await cancion.find({}).sort({name:1})   //El await evita que se trabaje con callbacks o promesas. 
         res.json(canciones);
 
 });
@@ -58,20 +58,6 @@ router.get('/usuario/:id', async (req, res) => {   //Busca usuario por el parame
         res.json(usuarioEncontrado);
 });
 
-// router.get('/usuario/busqueda', async function (req, res) {   //Busca usuario por el parametro por ID
-//         try {
-//                 let name = req.params.name;
-//                 res.json(name);
-//         } catch (err) {
-//                 console.log(err);
-//         }
-
-// });
-
-
-
-
-
 
 
 //Add Posts
@@ -83,6 +69,30 @@ router.post('/cancion', async (req, res) => {                //Guarda cancion
                 status: "Cancion guardada"
         });
 });
+
+router.post('/canciones', async (req, res) => {                //Guarda cancion
+        err="0"
+        for (song of req.body){
+                try{
+                let cancionGuardada = new cancion(song);
+                await cancionGuardada.save(); //Aqui no hay respuesta porque el numero de respuestas da un error.
+                }catch(err){
+                        console.log(song)
+                        console.log(err)
+                }finally{
+                        res.json({
+                                status: "Cancion guardada",
+                                errors: err
+                        })
+
+                }
+        }
+        
+});
+
+
+
+
 
 router.post('/lista', async (req, res) => {                //Guarda cancion
         let listaGuardada = new lista(req.body);

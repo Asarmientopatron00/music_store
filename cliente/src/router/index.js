@@ -30,6 +30,7 @@ const routes = [
   {
     path:"/VistaLetra",
     name: "VistaLetra",
+    props: true,
     component: () =>import('@/components/VistaLetra.vue')
   }
  
